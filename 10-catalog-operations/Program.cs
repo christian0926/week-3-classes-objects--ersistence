@@ -4,5 +4,5 @@ catalog.Add(new Artifact("Glass Seed", "Mars"));
 
 catalog.PrintAll();
 
-Artifact? found = catalog.FindByName("Glass Seed");
+Artifact found = catalog.FindByName("Glass Seed");
 Console.WriteLine(found is null ? "Not found" : $"Found: {found.Name}");
