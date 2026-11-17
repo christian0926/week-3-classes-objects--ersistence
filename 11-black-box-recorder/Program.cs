@@ -5,6 +5,7 @@ string path = "blackbox.txt";
 if (File.Exists(path))
 {
     Console.WriteLine("filen finnes");
+    Console.WriteLine(File.ReadAllText(path));
 }
 else
 {
